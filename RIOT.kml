@@ -2,8 +2,27 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
   <Document>
     <name>RIOT</name>
-    <Style id="default0">
+    <Style id="default1">
       <IconStyle>
+        <color>ff169dff</color>
+        <Icon>
+          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+        </Icon>
+        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+      </IconStyle>
+      <ListStyle>
+		</ListStyle>
+      <LineStyle>
+        <color>ff0095ff</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="default2">
+      <IconStyle>
+        <color>ff169dff</color>
         <scale>1.2</scale>
         <Icon>
           <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -13,8 +32,8 @@
       <ListStyle>
 		</ListStyle>
       <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>3</width>
+        <color>ff0095ff</color>
+        <width>6</width>
       </LineStyle>
       <PolyStyle>
         <color>40ffffff</color>
@@ -27,11 +46,73 @@
         </Icon>
         <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
       </IconStyle>
-      <ListStyle>
-		</ListStyle>
       <LineStyle>
         <color>ff2dc0fb</color>
         <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="default0">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+        </Icon>
+        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+      </IconStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="sh_wht-blank">
+      <IconStyle>
+        <color>ff169dff</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+      <LineStyle>
+        <color>ff0095ff</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="sn_wht-blank">
+      <IconStyle>
+        <color>ff169dff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+      <LineStyle>
+        <color>ff0095ff</color>
+        <width>4</width>
       </LineStyle>
       <PolyStyle>
         <color>40ffffff</color>
@@ -45,26 +126,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#__managed_style_00646B0C9B40E52C7C8E_highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <StyleMap id="__managed_style_00FC1EFF3340EAA2BAF9">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#__managed_style_00FC1EFF3340EAA2BAF9_normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#__managed_style_00FC1EFF3340EAA2BAF9_highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <StyleMap id="__managed_style_0152FA683440EAA17CA3">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#__managed_style_0152FA683440EAA17CA3_normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#__managed_style_0152FA683440EAA17CA3_highlight</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="__managed_style_0F55030F7D40E52C7C90">
@@ -170,11 +231,21 @@
     <StyleMap id="__managed_style_4CD2276F7B40E52C7C8F">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_4CD2276F7B40E52C7C8F_normal</styleUrl>
+        <styleUrl>#default1</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_4CD2276F7B40E52C7C8F_highlight</styleUrl>
+        <styleUrl>#default2</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="msn_wht-blank">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_wht-blank</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_wht-blank</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="__managed_style_00646B0C9B40E52C7C8E_highlight">
@@ -203,68 +274,6 @@
       <LineStyle>
         <color>ff808080</color>
         <width>0.5</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
-    <Style id="__managed_style_00FC1EFF3340EAA2BAF9_highlight">
-      <IconStyle>
-        <scale>1.2</scale>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff58eeff</color>
-        <width>6</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
-    <Style id="__managed_style_00FC1EFF3340EAA2BAF9_normal">
-      <IconStyle>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff58eeff</color>
-        <width>4</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
-    <Style id="__managed_style_0152FA683440EAA17CA3_highlight">
-      <IconStyle>
-        <scale>1.2</scale>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=ffee58&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>3</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
-    <Style id="__managed_style_0152FA683440EAA17CA3_normal">
-      <IconStyle>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=ffee58&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>2</width>
       </LineStyle>
       <PolyStyle>
         <color>40ffffff</color>
@@ -549,46 +558,16 @@
         <color>40ffffff</color>
       </PolyStyle>
     </Style>
-    <Style id="__managed_style_4CD2276F7B40E52C7C8F_highlight">
-      <IconStyle>
-        <scale>1.2</scale>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff58eeff</color>
-        <width>6</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
-    <Style id="__managed_style_4CD2276F7B40E52C7C8F_normal">
-      <IconStyle>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff58eeff</color>
-        <width>4</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
     <Folder>
       <name>RIOT</name>
       <open>1</open>
       <Folder id="04D75FB5E13FE91AF6F6">
         <name>transits</name>
-        <open>1</open>
+        <visibility>0</visibility>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="0C095C41E23EA3BD91F4">
           <name>To Point Loma</name>
+          <visibility>0</visibility>
           <LookAt>
             <longitude>-118.8641850721099</longitude>
             <latitude>33.80202868686266</latitude>
@@ -608,6 +587,7 @@
         </Placemark>
         <Placemark id="01D9860B523EA3BE5A87">
           <name>To Port Hueneme</name>
+          <visibility>0</visibility>
           <LookAt>
             <longitude>-119.5012632182729</longitude>
             <latitude>33.8571957490434</latitude>
@@ -627,6 +607,7 @@
         </Placemark>
         <Placemark id="02D4CDACD23FECAF2AAB">
           <name>Beyster to recovery</name>
+          <visibility>0</visibility>
           <LookAt>
             <longitude>-119.8850628896572</longitude>
             <latitude>34.03316480878136</latitude>
@@ -646,6 +627,7 @@
         </Placemark>
         <Placemark id="08AC0869E43FECB098B3">
           <name>Beyster to deployment</name>
+          <visibility>0</visibility>
           <LookAt>
             <longitude>-120.0293590844441</longitude>
             <latitude>33.77536470516988</latitude>
@@ -665,6 +647,7 @@
         </Placemark>
         <Placemark id="06EBAC17FD3EA3BC2EBB">
           <name>Mooring deployment path</name>
+          <visibility>0</visibility>
           <LookAt>
             <longitude>-119.6123296197513</longitude>
             <latitude>33.66871996234054</latitude>
@@ -5612,6 +5595,7 @@
       </Folder>
       <Folder id="075CBB877F4059ACAB01">
         <name>ship-transects</name>
+        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="067C952E0C4059B66BB4">
           <name>Along-ridge north 3 hrs</name>
@@ -5682,7 +5666,7 @@
             <range>69579.66652278788</range>
             <altitudeMode>absolute</altitudeMode>
           </LookAt>
-          <styleUrl>#__managed_style_0152FA683440EAA17CA3</styleUrl>
+          <styleUrl>#msn_wht-blank</styleUrl>
           <Point>
             <coordinates>-119.9155655438382,33.66722861526318,6.968932939142763</coordinates>
           </Point>
@@ -5699,7 +5683,7 @@
             <range>69579.66652278788</range>
             <altitudeMode>absolute</altitudeMode>
           </LookAt>
-          <styleUrl>#__managed_style_0152FA683440EAA17CA3</styleUrl>
+          <styleUrl>#msn_wht-blank</styleUrl>
           <Point>
             <coordinates>-119.8645802021806,33.5763607199207,15.30004726217113</coordinates>
           </Point>
@@ -5716,7 +5700,7 @@
             <range>69576.48618531415</range>
             <altitudeMode>absolute</altitudeMode>
           </LookAt>
-          <styleUrl>#__managed_style_00FC1EFF3340EAA2BAF9</styleUrl>
+          <styleUrl>#__managed_style_4CD2276F7B40E52C7C8F</styleUrl>
           <LineString>
             <coordinates>
 							-119.8598019985476,33.56929539707239,0 -119.814381428906,33.48711930628362,0 
@@ -5735,7 +5719,7 @@
             <range>69580.00473031774</range>
             <altitudeMode>absolute</altitudeMode>
           </LookAt>
-          <styleUrl>#__managed_style_0152FA683440EAA17CA3</styleUrl>
+          <styleUrl>#msn_wht-blank</styleUrl>
           <Point>
             <coordinates>-119.8602742426025,33.56788467787824,14.20672868756855</coordinates>
           </Point>
@@ -5752,29 +5736,10 @@
             <range>69580.00473031774</range>
             <altitudeMode>absolute</altitudeMode>
           </LookAt>
-          <styleUrl>#__managed_style_0152FA683440EAA17CA3</styleUrl>
+          <styleUrl>#msn_wht-blank</styleUrl>
           <Point>
             <coordinates>-119.8171625428521,33.48530524801399,5.217006726276921</coordinates>
           </Point>
-        </Placemark>
-        <Placemark id="05257626A840EAA46D79">
-          <name>Along-ridge full 6 hr</name>
-          <LookAt>
-            <longitude>-119.8190792576385</longitude>
-            <latitude>33.54575385338861</latitude>
-            <altitude>8.697592941902458</altitude>
-            <heading>0</heading>
-            <tilt>0</tilt>
-            <gx:fovy>35</gx:fovy>
-            <range>26075.10336984415</range>
-            <altitudeMode>absolute</altitudeMode>
-          </LookAt>
-          <styleUrl>#__managed_style_00FC1EFF3340EAA2BAF9</styleUrl>
-          <LineString>
-            <coordinates>
-							-119.9099506343009,33.67130925346474,0 -119.8067647687143,33.48922063076889,0 
-						</coordinates>
-          </LineString>
         </Placemark>
       </Folder>
       <Document>
