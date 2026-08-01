@@ -2,6 +2,41 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
   <Document>
     <name>RIOT</name>
+    <Style id="default0">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+        </Icon>
+        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+      </IconStyle>
+      <ListStyle>
+		</ListStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="default">
+      <IconStyle>
+        <Icon>
+          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+        </Icon>
+        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+      </IconStyle>
+      <ListStyle>
+		</ListStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+      </PolyStyle>
+    </Style>
     <StyleMap id="__managed_style_00646B0C9B40E52C7C8E">
       <Pair>
         <key>normal</key>
@@ -85,11 +120,11 @@
     <StyleMap id="__managed_style_28E2B3E9D540E52C7C8F">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_28E2B3E9D540E52C7C8F_normal</styleUrl>
+        <styleUrl>#default</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_28E2B3E9D540E52C7C8F_highlight</styleUrl>
+        <styleUrl>#default0</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="__managed_style_2BEF6BD5A840E52C7C90">
@@ -390,37 +425,6 @@
         <color>40ffffff</color>
       </PolyStyle>
     </Style>
-    <Style id="__managed_style_28E2B3E9D540E52C7C8F_highlight">
-      <IconStyle>
-        <scale>1.2</scale>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>3</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
-    <Style id="__managed_style_28E2B3E9D540E52C7C8F_normal">
-      <IconStyle>
-        <Icon>
-          <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-        </Icon>
-        <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
-      </IconStyle>
-      <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>40ffffff</color>
-      </PolyStyle>
-    </Style>
     <Style id="__managed_style_2BEF6BD5A840E52C7C90_highlight">
       <IconStyle>
         <scale>1.2</scale>
@@ -578,8 +582,10 @@
     </Style>
     <Folder>
       <name>RIOT</name>
+      <open>1</open>
       <Folder id="04D75FB5E13FE91AF6F6">
         <name>transits</name>
+        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="0C095C41E23EA3BD91F4">
           <name>To Point Loma</name>
@@ -672,7 +678,7 @@
           <styleUrl>#__managed_style_28E2B3E9D540E52C7C8F</styleUrl>
           <LineString>
             <coordinates>
-							-119.736397446039,33.57021700000551,0 -119.82473290293,33.68871606996163,0 -119.9304401786704,33.56890178399755,0 -119.8498937261205,33.60709114293277,0 -119.846162826698,33.57227538263706,0 -119.8681082011757,33.52770895642362,0 -120.1405870653081,33.62494584996739,0 -120.3150276057491,33.68093158232918,0 -120.461632115563,33.82749097155897,0 -120.460076783073,33.69348494023441,0 -120.4332452830694,33.57385707291577,0 -120.4167661818552,33.50704301759509,0 
+							-119.736397446039,33.57021700000551,0 -119.82473290293,33.68871606996163,0 -119.9304401786704,33.56890178399755,0 -119.9005283386296,33.61720520926401,0 -119.8679741228006,33.52817681894744,0 -119.8457379837464,33.57240998037719,0 -120.1405870653081,33.62494584996739,0 -120.3150276057491,33.68093158232918,0 -120.461632115563,33.82749097155897,0 -120.460076783073,33.69348494023441,0 -120.4332452830694,33.57385707291577,0 -120.4167661818552,33.50704301759509,0 
 						</coordinates>
           </LineString>
         </Placemark>
