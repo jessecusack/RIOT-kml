@@ -21143,6 +21143,7 @@
       </Document>
       <Document>
         <name>moorings.kml</name>
+        <open>1</open>
         <Placemark>
           <name>LF1</name>
           <Point>
