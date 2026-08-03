@@ -42,10 +42,6 @@
           <href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAZCAYAAAB5CNMWAAADy0lEQVRYR+2YX2hTVxzHP2mbaq9ba8FVWzMYgksdw4oIKrQj9UnB0To7bBWpPqzQhxX8V1Fa7IYoClXEJ/EPKnW4TfZHZ1s2SltlCPVFBUvti841FdaqJCQ2zU3r+N3cnN3MuPah12aNH0g493sPhPO5J+f8znVgQdO4rmksVAEQDqP7/WwB+lWYojis49Y0fMeOke12q4j6ekZu3+ZL4KwKU5Q4WbNn47t5k+wVK1TEgQO8bG7mUjDIVhWmKBPKamuDykr+8Pv5QIUpyoSy/H7IyTGa8u0345RkQlmCy8ULr5dy4DcV2sSsWdwfHeUjFcCnwC/qahqZlKxNmxi9coVD4+N8rUJ7SEtPJ3TxIs6CAujogOPH6QsGWaJ6TCOTknXyJDQ20u3z4VGhPXzocNAXieBISzPKFvLzCT17RiXws+o1TUxKVk8PFBczoutoKrSH3JISam/coBd4Vz5791J87hyXhoe5rnpNE3GypM7q7o7KGh/nz74+nrS2knHtGh/fukWmrquuMw2fuS7+CrQDfyUaYJyswkJOeTy8d/UqhYOD/6wT8+bB8HDsKiW4C3wPXAAGYiOOySoBvgJK5SIvDzZsgFWrjL8f2dno8+fjHBiAhXGHof83nZ2wZo0xhjCQaY7mJRABnGa7A2gCfhdZnwPfijiZQfv3Q22tsX4pvF7CLheZM1hWEJijBvwqIm2jyHoMvF9XB0eOxEuK0d/PiNtN1gyWJWtWtPR+PY9FVsTpJH1oSFXqr3DvHsGiIubMYFnPZSdWA07MmMi6LHXnokXQ0gKrV6ubip4eAitX8o6dsh4+hEgEFi9WkcHTp5CbC1J3TTWWNUt2vzwzfh2XRZYY/Qn4RJKaGti2LV5aVxe+0lJy7JS1bx8EAtEC2EpFBSxbBg0NKpoyLLIGgQIzTkQX8FlsN0wHtoNxnMmXwOWCdevA4zGe+PPqanLtlLV7N0gdd+KEiujtheXL4dEjWLBAxVOGRZYX4l96mjwBGoHzsb+hFdk+NwJfgHG0Me673YQfPFBbq23s3AnNzeqS9euhvR3GxlRkFy+kJjfbsvN1AqeBH8yywuDfsqzIDBNxZWAUqInMTyl79sDRo9G2zKqlS9+IKOGOLI/m+fNHayFq5b9kvVGcTk7t2kXN4cPRny0rI9TWxhldN15pJwVJI0vTOL9jB9UHD0ZnVVEReiRizG554klB0sjKyqKlvp4tTU1QXk6otZXTuk5dUlgySSZZ31RVUbV2LWzebMwqWSOH3spKQEYGDXPnUiHtQIDvQiEOxe4lC38DockuD0PVa0wAAAAASUVORK5CYII=</href>
         </Icon>
       </IconStyle>
-      <BalloonStyle>
-		</BalloonStyle>
-      <ListStyle>
-		</ListStyle>
       <LineStyle>
         <color>ff2dc0fb</color>
         <width>3</width>
@@ -76,21 +72,6 @@
         <color>40ffffff</color>
       </PolyStyle>
     </Style>
-    <Style id="sh_ylw-pushpin0">
-      <IconStyle>
-        <scale>1.3</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-        </Icon>
-        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
-      </IconStyle>
-      <BalloonStyle>
-		</BalloonStyle>
-      <LineStyle>
-        <color>ff00fff5</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
     <Style id="sh_ylw-pushpin">
       <IconStyle>
         <scale>1.3</scale>
@@ -99,8 +80,19 @@
         </Icon>
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
-      <BalloonStyle>
-		</BalloonStyle>
+    </Style>
+    <Style id="sh_ylw-pushpin0">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <LineStyle>
+        <color>ff00fff5</color>
+        <width>3</width>
+      </LineStyle>
     </Style>
     <Style id="sn_m+fNHayFq5b9kvVGcTk7t2kXN4cPRny0rI9TWxhldN15pJwVJI0vTOL9jB9UHD0ZnVVEReiRizG554klB0sjKyqKlvp4tTU1QXk6otZXTuk5dUlgySSZZ31RVUbV2LWzebMwqWSOH3spKQEYGDXPnUiHtQIDvQiEOxe4lC38DockuD0PVa0wAAAAASUVORK5CYII=">
       <IconStyle>
@@ -109,10 +101,6 @@
           <href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAZCAYAAAB5CNMWAAADy0lEQVRYR+2YX2hTVxzHP2mbaq9ba8FVWzMYgksdw4oIKrQj9UnB0To7bBWpPqzQhxX8V1Fa7IYoClXEJ/EPKnW4TfZHZ1s2SltlCPVFBUvti841FdaqJCQ2zU3r+N3cnN3MuPah12aNH0g493sPhPO5J+f8znVgQdO4rmksVAEQDqP7/WwB+lWYojis49Y0fMeOke12q4j6ekZu3+ZL4KwKU5Q4WbNn47t5k+wVK1TEgQO8bG7mUjDIVhWmKBPKamuDykr+8Pv5QIUpyoSy/H7IyTGa8u0345RkQlmCy8ULr5dy4DcV2sSsWdwfHeUjFcCnwC/qahqZlKxNmxi9coVD4+N8rUJ7SEtPJ3TxIs6CAujogOPH6QsGWaJ6TCOTknXyJDQ20u3z4VGhPXzocNAXieBISzPKFvLzCT17RiXws+o1TUxKVk8PFBczoutoKrSH3JISam/coBd4Vz5791J87hyXhoe5rnpNE3GypM7q7o7KGh/nz74+nrS2knHtGh/fukWmrquuMw2fuS7+CrQDfyUaYJyswkJOeTy8d/UqhYOD/6wT8+bB8HDsKiW4C3wPXAAGYiOOySoBvgJK5SIvDzZsgFWrjL8f2dno8+fjHBiAhXGHof83nZ2wZo0xhjCQaY7mJRABnGa7A2gCfhdZnwPfijiZQfv3Q22tsX4pvF7CLheZM1hWEJijBvwqIm2jyHoMvF9XB0eOxEuK0d/PiNtN1gyWJWtWtPR+PY9FVsTpJH1oSFXqr3DvHsGiIubMYFnPZSdWA07MmMi6LHXnokXQ0gKrV6ubip4eAitX8o6dsh4+hEgEFi9WkcHTp5CbC1J3TTWWNUt2vzwzfh2XRZYY/Qn4RJKaGti2LV5aVxe+0lJy7JS1bx8EAtEC2EpFBSxbBg0NKpoyLLIGgQIzTkQX8FlsN0wHtoNxnMmXwOWCdevA4zGe+PPqanLtlLV7N0gdd+KEiujtheXL4dEjWLBAxVOGRZYX4l96mjwBGoHzsb+hFdk+NwJfgHG0Me673YQfPFBbq23s3AnNzeqS9euhvR3GxlRkFy+kJjfbsvN1AqeBH8yywuDfsqzIDBNxZWAUqInMTyl79sDRo9G2zKqlS9+IKOGOLI/m+fNHayFq5b9kvVGcTk7t2kXN4cPRny0rI9TWxhldN15pJwVJI0vTOL9jB9UHD0ZnVVEReiRizG554klB0sjKyqKlvp4tTU1QXk6otZXTuk5dUlgySSZZ31RVUbV2LWzebMwqWSOH3spKQEYGDXPnUiHtQIDvQiEOxe4lC38DockuD0PVa0wAAAAASUVORK5CYII=</href>
         </Icon>
       </IconStyle>
-      <BalloonStyle>
-		</BalloonStyle>
-      <ListStyle>
-		</ListStyle>
       <LineStyle>
         <color>ff2dc0fb</color>
         <width>2</width>
@@ -151,8 +139,6 @@
         </Icon>
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
-      <BalloonStyle>
-		</BalloonStyle>
       <LineStyle>
         <color>ff00fff5</color>
         <width>3</width>
@@ -166,8 +152,6 @@
         </Icon>
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
-      <BalloonStyle>
-		</BalloonStyle>
     </Style>
     <StyleMap id="__managed_style_00646B0C9B40E52C7C8E">
       <Pair>
@@ -289,16 +273,6 @@
         <styleUrl>#sh_wht-blank</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="msn_ylw-pushpin0">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#sn_ylw-pushpin</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#sh_ylw-pushpin0</styleUrl>
-      </Pair>
-    </StyleMap>
     <StyleMap id="msn_ylw-pushpin">
       <Pair>
         <key>normal</key>
@@ -307,6 +281,16 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#sh_ylw-pushpin</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="msn_ylw-pushpin0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_ylw-pushpin0</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="__managed_style_00646B0C9B40E52C7C8E_highlight">
@@ -592,9 +576,71 @@
     <Folder>
       <name>RIOT</name>
       <open>1</open>
+      <Document>
+        <name>moorings.kml</name>
+        <Placemark>
+          <name>LF1</name>
+          <Point>
+            <coordinates>-120.416,33.5026,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LF2</name>
+          <Point>
+            <coordinates>-120.313,33.6797,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LF3</name>
+          <Point>
+            <coordinates>-120.463,33.8305,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LF4</name>
+          <Point>
+            <coordinates>-120.456,33.689,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>V1</name>
+          <Point>
+            <coordinates>-119.82428,33.6889,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>V2</name>
+          <Point>
+            <coordinates>-119.846,33.57232,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>V3</name>
+          <Point>
+            <coordinates>-119.744,33.567,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>V4</name>
+          <Point>
+            <coordinates>-119.931,33.56846,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>VTS</name>
+          <Point>
+            <coordinates>-119.901,33.616,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>W</name>
+          <Point>
+            <coordinates>-119.868,33.52757,0</coordinates>
+          </Point>
+        </Placemark>
+      </Document>
       <Folder id="04D75FB5E13FE91AF6F6">
         <name>transits</name>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="0C095C41E23EA3BD91F4">
           <name>To Point Loma</name>
@@ -685,7 +731,6 @@
       </Folder>
       <Folder id="02B990A7A44059502A8E">
         <name>gliders</name>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="0D892AA5E44059507DE1">
           <name>G1: Glider Deployment</name>
@@ -748,7 +793,6 @@
       <Folder id="0A9E769BB040E90FC726">
         <name>simulations</name>
         <visibility>0</visibility>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <GroundOverlay id="5DC6C0DE3C000002">
           <name>SampleSimulationPV</name>
@@ -769,7 +813,6 @@
       <Folder id="0E394F4AF440CB82F0B7">
         <name>navy</name>
         <visibility>0</visibility>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <GroundOverlay>
           <name>SUA</name>
@@ -5777,69 +5820,6 @@
           </Point>
         </Placemark>
       </Folder>
-      <Document>
-        <name>moorings.kml</name>
-        <Placemark>
-          <name>LF1</name>
-          <Point>
-            <coordinates>-120.416,33.5026,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>LF2</name>
-          <Point>
-            <coordinates>-120.313,33.6797,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>LF3</name>
-          <Point>
-            <coordinates>-120.463,33.8305,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>LF4</name>
-          <Point>
-            <coordinates>-120.456,33.689,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>V1</name>
-          <Point>
-            <coordinates>-119.82428,33.6889,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>V2</name>
-          <Point>
-            <coordinates>-119.846,33.57232,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>V3</name>
-          <Point>
-            <coordinates>-119.73606,33.56896,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>V4</name>
-          <Point>
-            <coordinates>-119.931,33.56846,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>VTS</name>
-          <Point>
-            <coordinates>-119.901,33.616,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>W</name>
-          <Point>
-            <coordinates>-119.868,33.52757,0</coordinates>
-          </Point>
-        </Placemark>
-      </Document>
     </Folder>
   </Document>
 </kml>
