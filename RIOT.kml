@@ -44,9 +44,29 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
+    <Style id="s_ylw-pushpin1">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <ListStyle>
+		</ListStyle>
+    </Style>
     <Style id="s_ylw-pushpin0">
       <IconStyle>
         <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Style id="s_ylw-pushpin_hl1">
+      <IconStyle>
+        <scale>1.3</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
         </Icon>
@@ -57,10 +77,12 @@
       <IconStyle>
         <scale>1.3</scale>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
         </Icon>
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
+      <ListStyle>
+		</ListStyle>
     </Style>
     <Style id="s_ylw-pushpin_hl0">
       <IconStyle>
@@ -5113,7 +5135,7 @@
     <StyleMap id="m_ylw-pushpin">
       <Pair>
         <key>normal</key>
-        <styleUrl>#s_ylw-pushpin</styleUrl>
+        <styleUrl>#s_ylw-pushpin1</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
@@ -5121,6 +5143,16 @@
       </Pair>
     </StyleMap>
     <StyleMap id="m_ylw-pushpin0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#s_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="m_ylw-pushpin00">
       <Pair>
         <key>normal</key>
         <styleUrl>#s_ylw-pushpin0</styleUrl>
@@ -5616,11 +5648,9 @@
       </Document>
       <Folder id="04D75FB5E13FE91AF6F6">
         <name>transits</name>
-        <visibility>0</visibility>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="0C095C41E23EA3BD91F4">
           <name>To Point Loma</name>
-          <visibility>0</visibility>
           <LookAt>
             <longitude>-118.8641850721099</longitude>
             <latitude>33.80202868686266</latitude>
@@ -5640,7 +5670,6 @@
         </Placemark>
         <Placemark id="01D9860B523EA3BE5A87">
           <name>To Port Hueneme</name>
-          <visibility>0</visibility>
           <LookAt>
             <longitude>-119.5012632182729</longitude>
             <latitude>33.8571957490434</latitude>
@@ -5660,7 +5689,6 @@
         </Placemark>
         <Placemark id="02D4CDACD23FECAF2AAB">
           <name>Beyster to recovery</name>
-          <visibility>0</visibility>
           <LookAt>
             <longitude>-119.8850628896572</longitude>
             <latitude>34.03316480878136</latitude>
@@ -5680,7 +5708,6 @@
         </Placemark>
         <Placemark id="08AC0869E43FECB098B3">
           <name>Beyster to deployment</name>
-          <visibility>0</visibility>
           <LookAt>
             <longitude>-120.0293590844441</longitude>
             <latitude>33.77536470516988</latitude>
@@ -5700,7 +5727,6 @@
         </Placemark>
         <Placemark>
           <name>Moorings</name>
-          <visibility>0</visibility>
           <styleUrl>#msn_ylw-pushpin00</styleUrl>
           <LineString>
             <tessellate>1</tessellate>
@@ -5712,7 +5738,6 @@
       </Folder>
       <Folder id="02B990A7A44059502A8E">
         <name>gliders</name>
-        <visibility>0</visibility>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="0D892AA5E44059507DE1">
           <name>G1: Glider Deployment</name>
@@ -5789,7 +5814,7 @@
             <roll>75.45446511871927</roll>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </Camera>
-          <styleUrl>#m_ylw-pushpin0</styleUrl>
+          <styleUrl>#m_ylw-pushpin00</styleUrl>
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-119.9159411206856,33.58817588608928,0</coordinates>
@@ -5811,7 +5836,7 @@
             <roll>75.45446511871927</roll>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </Camera>
-          <styleUrl>#m_ylw-pushpin0</styleUrl>
+          <styleUrl>#m_ylw-pushpin00</styleUrl>
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-119.9817728003501,33.57181962589505,0</coordinates>
@@ -5835,11 +5860,30 @@
             <coordinates>-119.95065,33.60318,0</coordinates>
           </Point>
         </Placemark>
+        <Placemark>
+          <name>sl684 recovery</name>
+          <LookAt>
+            <gx:TimeStamp>
+              <when>2026-06-16T16:54:00Z</when>
+            </gx:TimeStamp>
+            <longitude>-120.1004019495755</longitude>
+            <latitude>33.65835561306984</latitude>
+            <altitude>0</altitude>
+            <heading>-14.444405327914</heading>
+            <tilt>0</tilt>
+            <range>35785.3648801675</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#m_ylw-pushpin</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-120.1969071048578,33.639766,0</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
       <Folder id="0A9E769BB040E90FC726">
         <name>simulations</name>
         <visibility>0</visibility>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <GroundOverlay id="5DC6C0DE3C000002">
           <name>SampleSimulationPV</name>
@@ -14022,7 +14066,7 @@
         </Placemark>
         <Placemark>
           <name>Untitled Path</name>
-          <styleUrl>#m_ylw-pushpin</styleUrl>
+          <styleUrl>#m_ylw-pushpin0</styleUrl>
           <LineString>
             <tessellate>1</tessellate>
             <coordinates>
@@ -14184,7 +14228,7 @@
         </Placemark>
         <Placemark>
           <name>Across A1</name>
-          <styleUrl>#m_ylw-pushpin</styleUrl>
+          <styleUrl>#m_ylw-pushpin0</styleUrl>
           <LineString>
             <tessellate>1</tessellate>
             <coordinates>
@@ -27670,7 +27714,6 @@
       </Document>
       <Folder>
         <name>float</name>
-        <open>1</open>
         <Placemark>
           <name>B1</name>
           <LookAt>
@@ -27714,6 +27757,17 @@
           </Point>
         </Placemark>
       </Folder>
+      <Document>
+        <name>RIOT Asset Replay Map (Southern California) - full archive (live)</name>
+        <NetworkLink>
+          <name>RIOT Asset Replay Map (Southern California) - full archive (live)</name>
+          <Link>
+            <href>http://riot-dradis.team-epsilon.cloud/kmz/riot_FULL_LATEST.kmz</href>
+            <refreshMode>onInterval</refreshMode>
+            <refreshInterval>600</refreshInterval>
+          </Link>
+        </NetworkLink>
+      </Document>
       <NetworkLink>
         <name>Sproul currents (live)</name>
         <Link>
