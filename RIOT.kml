@@ -2500,6 +2500,7 @@
       </Folder>
       <Folder id="0E394F4AF440CB82F0B7">
         <name>navy</name>
+        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark>
           <name>Exclusion center 8/13 8/14</name>
@@ -11720,6 +11721,7 @@
       </Folder>
       <Folder>
         <name>float</name>
+        <open>1</open>
         <Placemark>
           <name>B1</name>
           <LookAt>
@@ -11765,7 +11767,6 @@
       </Folder>
       <NetworkLink>
         <name>Sproul currents (live)</name>
-        <open>1</open>
         <Link>
           <href>https://raw.githubusercontent.com/jessecusack/RIOT-kml/main/sproul_currents.kmz</href>
           <refreshMode>onInterval</refreshMode>
