@@ -50,15 +50,6 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
-    <Style id="s_ylw-pushpin000">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-        </Icon>
-        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
-      </IconStyle>
-    </Style>
     <Style id="s_ylw-pushpin10">
       <IconStyle>
         <scale>1.1</scale>
@@ -105,15 +96,6 @@
         </ItemIcon>
       </ListStyle>
     </Style>
-    <Style id="s_ylw-pushpin_hl">
-      <IconStyle>
-        <scale>1.3</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-        </Icon>
-        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
-      </IconStyle>
-    </Style>
     <Style id="s_ylw-pushpin_hl2">
       <IconStyle>
         <scale>1.3</scale>
@@ -129,6 +111,15 @@
       </ListStyle>
     </Style>
     <Style id="s_ylw-pushpin_hl1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Style id="s_ylw-pushpin_hl">
       <IconStyle>
         <scale>1.3</scale>
         <Icon>
@@ -187,14 +178,21 @@
         </ItemIcon>
       </ListStyle>
     </Style>
-    <Style id="s_ylw-pushpin_hl3">
+    <Style id="sh_grn-blank2">
       <IconStyle>
         <scale>1.3</scale>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
         </Icon>
-        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
       </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
     </Style>
     <Style id="sh_grn-blank1">
       <IconStyle>
@@ -273,6 +271,22 @@
         <color>40ffffff</color>
       </PolyStyle>
     </Style>
+    <Style id="sh_pink-diamond">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-diamond.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-diamond-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
     <Style id="sh_red-square">
       <IconStyle>
         <scale>1.3</scale>
@@ -336,7 +350,7 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
-    <Style id="sn_grn-blank0">
+    <Style id="sn_grn-blank1">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
@@ -360,6 +374,22 @@
         </Icon>
         <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
       </IconStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+    <Style id="sn_grn-blank0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
       <ListStyle>
         <ItemIcon>
           <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
@@ -412,6 +442,22 @@
       <PolyStyle>
         <color>40ffffff</color>
       </PolyStyle>
+    </Style>
+    <Style id="sn_pink-diamond">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-diamond.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-diamond-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
     </Style>
     <Style id="sn_red-square">
       <IconStyle>
@@ -1823,26 +1869,6 @@
         <styleUrl>#inline1</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="m_ylw-pushpin1">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#s_ylw-pushpin</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#s_ylw-pushpin_hl3</styleUrl>
-      </Pair>
-    </StyleMap>
-    <StyleMap id="m_ylw-pushpin2">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#s_ylw-pushpin0</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-      </Pair>
-    </StyleMap>
     <StyleMap id="m_ylw-pushpin">
       <Pair>
         <key>normal</key>
@@ -1851,6 +1877,16 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#s_ylw-pushpin_hl</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="m_ylw-pushpin1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#s_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#s_ylw-pushpin_hl1</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="m_ylw-pushpin0">
@@ -1866,7 +1902,7 @@
     <StyleMap id="m_ylw-pushpin00">
       <Pair>
         <key>normal</key>
-        <styleUrl>#s_ylw-pushpin000</styleUrl>
+        <styleUrl>#s_ylw-pushpin00</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
@@ -1876,7 +1912,7 @@
     <StyleMap id="m_ylw-pushpin01">
       <Pair>
         <key>normal</key>
-        <styleUrl>#s_ylw-pushpin00</styleUrl>
+        <styleUrl>#s_ylw-pushpin0</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
@@ -1893,7 +1929,7 @@
         <styleUrl>#s_ylw-pushpin_hl0</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="m_ylw-pushpin20">
+    <StyleMap id="m_ylw-pushpin2">
       <Pair>
         <key>normal</key>
         <styleUrl>#s_ylw-pushpin2</styleUrl>
@@ -1916,21 +1952,31 @@
     <StyleMap id="msn_grn-blank">
       <Pair>
         <key>normal</key>
-        <styleUrl>#sn_grn-blank00</styleUrl>
+        <styleUrl>#sn_grn-blank1</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#sh_grn-blank0</styleUrl>
+        <styleUrl>#sh_grn-blank1</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="msn_grn-blank1">
+    <StyleMap id="msn_grn-blank2">
       <Pair>
         <key>normal</key>
         <styleUrl>#sn_grn-blank0</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#sh_grn-blank1</styleUrl>
+        <styleUrl>#sh_grn-blank2</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="msn_grn-blank1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_grn-blank00</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_grn-blank0</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="msn_grn-blank0">
@@ -1971,6 +2017,16 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#sh_m+fNHayFq5b9kvVGcTk7t2kXN4cPRny0rI9TWxhldN15pJwVJI0vTOL9jB9UHD0ZnVVEReiRizG554klB0sjKyqKlvp4tTU1QXk6otZXTuk5dUlgySSZZ31RVUbV2LWzebMwqWSOH3spKQEYGDXPnUiHtQIDvQiEOxe4lC38DockuD0PVa0wAAAAASUVORK5CYII=</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="msn_pink-diamond">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_pink-diamond</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_pink-diamond</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="msn_red-square">
@@ -2673,7 +2729,6 @@
       <Folder id="0E394F4AF440CB82F0B7">
         <name>navy</name>
         <visibility>0</visibility>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark>
           <name>Exclusion center 8/13 8/14</name>
@@ -10848,58 +10903,6 @@
         <name>ship-transects</name>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark>
-          <name>Untitled Path</name>
-          <styleUrl>#m_ylw-pushpin10</styleUrl>
-          <LineString>
-            <tessellate>1</tessellate>
-            <coordinates>
-							-120.0898832935813,33.60088892149732,0 -120.0612518568877,33.66351907785511,0 
-						</coordinates>
-          </LineString>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-12T23:24:58Z</begin>
-              <end>2026-08-14T06:39:21Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.0530967560157</longitude>
-            <latitude>33.61591544605877</latitude>
-            <altitude>0</altitude>
-            <heading>3.930338589935062</heading>
-            <tilt>18.37962973359423</tilt>
-            <range>16551.63621736709</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin20</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.0881857526593,33.5993163651646,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-12T23:24:58Z</begin>
-              <end>2026-08-14T06:39:21Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.0530967560157</longitude>
-            <latitude>33.61591544605877</latitude>
-            <altitude>0</altitude>
-            <heading>3.930338589935062</heading>
-            <tilt>18.37962973359423</tilt>
-            <range>16551.63621736709</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin20</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.061,33.664,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
           <name>B1S</name>
           <Camera>
             <gx:TimeStamp>
@@ -10913,7 +10916,7 @@
             <roll>1.669148578049345</roll>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </Camera>
-          <styleUrl>#msn_grn-blank</styleUrl>
+          <styleUrl>#msn_grn-blank1</styleUrl>
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-119.8487338034171,33.48600132389755,0</coordinates>
@@ -11005,7 +11008,7 @@
             <range>32648.50642660087</range>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#m_ylw-pushpin20</styleUrl>
+          <styleUrl>#m_ylw-pushpin2</styleUrl>
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-119.872,33.728,0</coordinates>
@@ -11025,211 +11028,445 @@
             <range>40790.56519606667</range>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#m_ylw-pushpin20</styleUrl>
+          <styleUrl>#m_ylw-pushpin2</styleUrl>
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-119.744,33.72824461815853,0</coordinates>
           </Point>
         </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-13T16:13:23Z</begin>
-              <end>2026-08-14T05:41:22Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1005123720378</longitude>
-            <latitude>33.60678247040753</latitude>
-            <altitude>0</altitude>
-            <heading>3.935973026662583</heading>
-            <tilt>11.3144936530649</tilt>
-            <range>16096.50997110592</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin20</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.0516,33.6205,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-13T16:13:23Z</begin>
-              <end>2026-08-14T05:41:22Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.0045684786668</longitude>
-            <latitude>33.65915994991008</latitude>
-            <altitude>0</altitude>
-            <heading>3.999479144244991</heading>
-            <tilt>10.0309673161448</tilt>
-            <range>12893.8478548493</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin20</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.015,33.656,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-14T05:49:01Z</begin>
-              <end>2026-08-14T15:14:18Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1069272359438</longitude>
-            <latitude>33.61659895568947</latitude>
-            <altitude>0</altitude>
-            <heading>-14.23854507225897</heading>
-            <tilt>1.207674698869421</tilt>
-            <range>28598.55152806296</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin0</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.123,33.5912,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-14T06:15:41Z</begin>
-              <end>2026-08-14T15:40:58Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.112153983358</longitude>
-            <latitude>33.62152979031188</latitude>
-            <altitude>0</altitude>
-            <heading>0.002032064334924529</heading>
-            <tilt>4.008114215019378</tilt>
-            <range>11930.43053125459</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin0</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.1421432111663,33.59852731778158,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-14T06:15:41Z</begin>
-              <end>2026-08-14T15:40:58Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1065965855492</longitude>
-            <latitude>33.62675579403263</latitude>
-            <altitude>0</altitude>
-            <heading>0.005111611347747672</heading>
-            <tilt>4.008104599124095</tilt>
-            <range>11915.31285519513</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin0</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.1335539496215,33.64985653916692,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-13T09:57:23Z</begin>
-              <end>2026-08-14T19:46:29Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1229583652143</longitude>
-            <latitude>33.61763201203822</latitude>
-            <altitude>0</altitude>
-            <heading>-14.57070206394268</heading>
-            <tilt>17.57796803716646</tilt>
-            <range>10298.54943799671</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin1</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.1489646552104,33.61654,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-13T14:28:43Z</begin>
-              <end>2026-08-15T01:53:01Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1173953061397</longitude>
-            <latitude>33.61098479464483</latitude>
-            <altitude>0</altitude>
-            <heading>-14.41949398562386</heading>
-            <tilt>4.400770522672368</tilt>
-            <range>17112.57434960901</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#m_ylw-pushpin</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.1383,33.6132,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Path</name>
-          <styleUrl>#m_ylw-pushpin2</styleUrl>
-          <LineString>
-            <tessellate>1</tessellate>
-            <coordinates>
-							-120.160802616834,33.60253842390702,0 -120.1488307183564,33.65419991619079,0 
-						</coordinates>
-          </LineString>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-13T15:56:13Z</begin>
-              <end>2026-08-15T03:20:31Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1307305312511</longitude>
-            <latitude>33.63177216894739</latitude>
-            <altitude>0</altitude>
-            <heading>-14.72646363917994</heading>
-            <tilt>20.41695809379357</tilt>
-            <range>16137.54774186679</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#msn_grn-blank1</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.1611347420555,33.60197615183272,0</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <name>Untitled Placemark</name>
-          <LookAt>
-            <gx:TimeSpan>
-              <begin>2026-08-13T15:56:13Z</begin>
-              <end>2026-08-15T03:20:31Z</end>
-            </gx:TimeSpan>
-            <longitude>-120.1554086217026</longitude>
-            <latitude>33.6353095673014</latitude>
-            <altitude>0</altitude>
-            <heading>-14.74012170562227</heading>
-            <tilt>20.41700231054877</tilt>
-            <range>16151.65865953285</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-          <styleUrl>#msn_grn-blank1</styleUrl>
-          <Point>
-            <gx:drawOrder>1</gx:drawOrder>
-            <coordinates>-120.152108888623,33.65360353423913,0</coordinates>
-          </Point>
-        </Placemark>
+        <Folder>
+          <name>A1 big deployment</name>
+          <visibility>0</visibility>
+          <Placemark>
+            <name>Untitled Path</name>
+            <visibility>0</visibility>
+            <styleUrl>#m_ylw-pushpin1</styleUrl>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+								-120.160802616834,33.60253842390702,0 -120.1488307183564,33.65419991619079,0 
+							</coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Path</name>
+            <visibility>0</visibility>
+            <styleUrl>#m_ylw-pushpin1</styleUrl>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+								-120.2556831268782,33.65381602165477,0 -120.2337374561889,33.60339933427576,0 
+							</coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-15T12:58:22Z</begin>
+                <end>2026-08-16T01:27:11Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.2176855229302</longitude>
+              <latitude>33.63263174961439</latitude>
+              <altitude>0</altitude>
+              <heading>-0.03254575870469582</heading>
+              <tilt>15.16882671030437</tilt>
+              <range>19303.9240872685</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.2425,33.657,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Path</name>
+            <visibility>0</visibility>
+            <styleUrl>#m_ylw-pushpin10</styleUrl>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+								-120.0898832935813,33.60088892149732,0 -120.0612518568877,33.66351907785511,0 
+							</coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-12T23:24:58Z</begin>
+                <end>2026-08-14T06:39:21Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.0530967560157</longitude>
+              <latitude>33.61591544605877</latitude>
+              <altitude>0</altitude>
+              <heading>3.930338589935062</heading>
+              <tilt>18.37962973359423</tilt>
+              <range>16551.63621736709</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.0881857526593,33.5993163651646,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-12T23:24:58Z</begin>
+                <end>2026-08-14T06:39:21Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.0530967560157</longitude>
+              <latitude>33.61591544605877</latitude>
+              <altitude>0</altitude>
+              <heading>3.930338589935062</heading>
+              <tilt>18.37962973359423</tilt>
+              <range>16551.63621736709</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.061,33.664,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-13T16:13:23Z</begin>
+                <end>2026-08-14T05:41:22Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.1005123720378</longitude>
+              <latitude>33.60678247040753</latitude>
+              <altitude>0</altitude>
+              <heading>3.935973026662583</heading>
+              <tilt>11.3144936530649</tilt>
+              <range>16096.50997110592</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.0516,33.6205,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-13T16:13:23Z</begin>
+                <end>2026-08-14T05:41:22Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.0045684786668</longitude>
+              <latitude>33.65915994991008</latitude>
+              <altitude>0</altitude>
+              <heading>3.999479144244991</heading>
+              <tilt>10.0309673161448</tilt>
+              <range>12893.8478548493</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.015,33.656,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-14T05:49:01Z</begin>
+                <end>2026-08-14T15:14:18Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.1069272359438</longitude>
+              <latitude>33.61659895568947</latitude>
+              <altitude>0</altitude>
+              <heading>-14.23854507225897</heading>
+              <tilt>1.207674698869421</tilt>
+              <range>28598.55152806296</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin0</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.123,33.5912,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-14T06:15:41Z</begin>
+                <end>2026-08-14T15:40:58Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.112153983358</longitude>
+              <latitude>33.62152979031188</latitude>
+              <altitude>0</altitude>
+              <heading>0.002032064334924529</heading>
+              <tilt>4.008114215019378</tilt>
+              <range>11930.43053125459</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin0</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.1421432111663,33.59852731778158,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-14T06:15:41Z</begin>
+                <end>2026-08-14T15:40:58Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.1065965855492</longitude>
+              <latitude>33.62675579403263</latitude>
+              <altitude>0</altitude>
+              <heading>0.005111611347747672</heading>
+              <tilt>4.008104599124095</tilt>
+              <range>11915.31285519513</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#m_ylw-pushpin0</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.1335539496215,33.64985653916692,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-13T15:56:13Z</begin>
+                <end>2026-08-15T03:20:31Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.1307305312511</longitude>
+              <latitude>33.63177216894739</latitude>
+              <altitude>0</altitude>
+              <heading>-14.72646363917994</heading>
+              <tilt>20.41695809379357</tilt>
+              <range>16137.54774186679</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.1611347420555,33.60197615183272,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-13T15:56:13Z</begin>
+                <end>2026-08-15T03:20:31Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.1554086217026</longitude>
+              <latitude>33.6353095673014</latitude>
+              <altitude>0</altitude>
+              <heading>-14.74012170562227</heading>
+              <tilt>20.41700231054877</tilt>
+              <range>16151.65865953285</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.152108888623,33.65360353423913,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-14T12:15:51Z</begin>
+                <end>2026-08-15T15:58:26Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.1798183487663</longitude>
+              <latitude>33.62412104959527</latitude>
+              <altitude>0</altitude>
+              <heading>-0.02300925366876273</heading>
+              <tilt>19.38424984290267</tilt>
+              <range>12585.51790386948</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.1932,33.65334,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <Camera>
+              <gx:TimeSpan>
+                <begin>2026-08-14T12:15:51Z</begin>
+                <end>2026-08-15T15:58:26Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.173393031655</longitude>
+              <latitude>33.62749931956859</latitude>
+              <altitude>14413.17419511565</altitude>
+              <heading>1.291459397282625</heading>
+              <tilt>1.501864205798064</tilt>
+              <roll>1.434272312654594</roll>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </Camera>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.175,33.605,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-14T16:55:16Z</begin>
+                <end>2026-08-15T22:04:41Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.2182239309847</longitude>
+              <latitude>33.63099978365295</latitude>
+              <altitude>0</altitude>
+              <heading>0.09111633273285993</heading>
+              <tilt>7.829355712263686</tilt>
+              <range>13405.56561593732</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.2141656010704,33.61,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-14T16:55:16Z</begin>
+                <end>2026-08-15T22:04:41Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.2182239309847</longitude>
+              <latitude>33.63099978365295</latitude>
+              <altitude>0</altitude>
+              <heading>0.09111633273285993</heading>
+              <tilt>7.829355712263686</tilt>
+              <range>13405.56561593732</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.2327342335639,33.65893819953506,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-15T13:57:30Z</begin>
+                <end>2026-08-16T02:26:19Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.2038916036503</longitude>
+              <latitude>33.62800794716835</latitude>
+              <altitude>0</altitude>
+              <heading>0.01076892367068041</heading>
+              <tilt>10.08957622018714</tilt>
+              <range>21616.44390815918</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.2323727768779,33.60301893617969,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-15T13:57:30Z</begin>
+                <end>2026-08-16T02:26:19Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.2038916036503</longitude>
+              <latitude>33.62800794716835</latitude>
+              <altitude>0</altitude>
+              <heading>0.01076892367068041</heading>
+              <tilt>10.08957622018714</tilt>
+              <range>21616.44390815918</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank2</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.2559032764915,33.65487357209862,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-16T03:34:31Z</begin>
+                <end>2026-08-16T15:22:37Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.270673726245</longitude>
+              <latitude>33.620293744134</latitude>
+              <altitude>0</altitude>
+              <heading>-0.02905744814605917</heading>
+              <tilt>8.750937500107195</tilt>
+              <range>13877.09265487588</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.3057,33.6454,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Untitled Placemark</name>
+            <visibility>0</visibility>
+            <LookAt>
+              <gx:TimeSpan>
+                <begin>2026-08-16T03:34:31Z</begin>
+                <end>2026-08-16T15:22:37Z</end>
+              </gx:TimeSpan>
+              <longitude>-120.270673726245</longitude>
+              <latitude>33.620293744134</latitude>
+              <altitude>0</altitude>
+              <heading>-0.02905744814605917</heading>
+              <tilt>8.750937500107195</tilt>
+              <range>13877.09265487588</range>
+              <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#msn_grn-blank</styleUrl>
+            <Point>
+              <gx:drawOrder>1</gx:drawOrder>
+              <coordinates>-120.2822,33.6014,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
       </Folder>
       <Folder>
         <name>measured-depths</name>
@@ -12117,7 +12354,6 @@
       </Folder>
       <Folder>
         <name>float</name>
-        <open>1</open>
         <Placemark>
           <name>Potential minion deploy</name>
           <LookAt>
@@ -12191,6 +12427,114 @@
           <refreshInterval>300</refreshInterval>
         </Link>
       </NetworkLink>
+      <Folder>
+        <name>mooring-surveys</name>
+        <Placemark>
+          <name>LF3</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-16T05:20:49Z</begin>
+              <end>2026-08-16T17:08:55Z</end>
+            </gx:TimeSpan>
+            <longitude>-120.330106974884</longitude>
+            <latitude>33.71593053580413</latitude>
+            <altitude>0</altitude>
+            <heading>-0.1453719136617385</heading>
+            <tilt>15.96237798997049</tilt>
+            <range>57643.12847091153</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_pink-diamond</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-120.4522833333333,33.80931666666667,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LF4</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-16T05:20:49Z</begin>
+              <end>2026-08-16T17:08:55Z</end>
+            </gx:TimeSpan>
+            <longitude>-120.5094240538641</longitude>
+            <latitude>33.71522188060163</latitude>
+            <altitude>0</altitude>
+            <heading>-0.2447533017288355</heading>
+            <tilt>15.96295136343073</tilt>
+            <range>57875.18004427874</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_pink-diamond</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-120.4863666666667,33.70246666666667,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LF2</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-16T05:20:49Z</begin>
+              <end>2026-08-16T17:08:55Z</end>
+            </gx:TimeSpan>
+            <longitude>-120.5094240538641</longitude>
+            <latitude>33.71522188060163</latitude>
+            <altitude>0</altitude>
+            <heading>-0.2447533017288355</heading>
+            <tilt>15.96295136343073</tilt>
+            <range>57875.18004427874</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_pink-diamond</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-120.3117833333333,33.67891666666667,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LF1</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-16T05:20:49Z</begin>
+              <end>2026-08-16T17:08:55Z</end>
+            </gx:TimeSpan>
+            <longitude>-120.5989234519395</longitude>
+            <latitude>33.82665262025153</latitude>
+            <altitude>0</altitude>
+            <heading>-0.294408478567933</heading>
+            <tilt>16.01861041395684</tilt>
+            <range>75846.45227902323</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_pink-diamond</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-120.41,33.50093333333334,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>V4</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-16T05:20:49Z</begin>
+              <end>2026-08-16T17:08:55Z</end>
+            </gx:TimeSpan>
+            <longitude>-119.9039327657296</longitude>
+            <latitude>33.58055789969725</latitude>
+            <altitude>0</altitude>
+            <heading>0.08952445671537826</heading>
+            <tilt>15.88341684775975</tilt>
+            <range>20705.66694044341</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_pink-diamond</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-119.92725,33.56605,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
   </Document>
 </kml>
