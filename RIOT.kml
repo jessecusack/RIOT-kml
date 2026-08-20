@@ -12516,7 +12516,6 @@
       </Folder>
       <Folder>
         <name>float</name>
-        <visibility>0</visibility>
         <open>1</open>
         <Placemark>
           <name>Potential minion deploy</name>
@@ -12564,7 +12563,6 @@
         </Placemark>
         <Placemark>
           <name>A1</name>
-          <visibility>0</visibility>
           <Camera>
             <gx:TimeSpan>
               <begin>2026-07-28T10:36:48.802150249Z</begin>
@@ -12640,7 +12638,6 @@
       </NetworkLink>
       <Folder>
         <name>moorings</name>
-        <open>1</open>
         <Document>
           <name>moorings.kml</name>
           <visibility>0</visibility>
