@@ -41,6 +41,20 @@
         <fill>0</fill>
       </PolyStyle>
     </Style>
+    <Style id="s_ylw-pushpin1">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
     <Style id="s_ylw-pushpin">
       <IconStyle>
         <scale>1.1</scale>
@@ -50,19 +64,14 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
-    <Style id="s_ylw-pushpin3">
+    <Style id="s_ylw-pushpin5">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
         </Icon>
-        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
-      <ListStyle>
-        <ItemIcon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
-        </ItemIcon>
-      </ListStyle>
     </Style>
     <Style id="s_ylw-pushpin0">
       <IconStyle>
@@ -82,7 +91,7 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
-    <Style id="s_ylw-pushpin1">
+    <Style id="s_ylw-pushpin10">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
@@ -91,7 +100,7 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
-    <Style id="s_ylw-pushpin10">
+    <Style id="s_ylw-pushpin101">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
@@ -119,6 +128,20 @@
       </IconStyle>
     </Style>
     <Style id="s_ylw-pushpin20">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+    <Style id="s_ylw-pushpin3">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
@@ -174,7 +197,7 @@
         </ItemIcon>
       </ListStyle>
     </Style>
-    <Style id="s_ylw-pushpin_hl3">
+    <Style id="s_ylw-pushpin_hl0">
       <IconStyle>
         <scale>1.3</scale>
         <Icon>
@@ -183,7 +206,21 @@
         <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
       </IconStyle>
     </Style>
-    <Style id="s_ylw-pushpin_hl0">
+    <Style id="s_ylw-pushpin_hl3">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+    <Style id="s_ylw-pushpin_hl01">
       <IconStyle>
         <scale>1.3</scale>
         <Icon>
@@ -256,6 +293,15 @@
         </ItemIcon>
       </ListStyle>
     </Style>
+    <Style id="s_ylw-pushpin_hl31">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
     <Style id="s_ylw-pushpin_hl30">
       <IconStyle>
         <scale>1.3</scale>
@@ -279,6 +325,22 @@
         </ItemIcon>
       </ListStyle>
     </Style>
+    <Style id="sh_grn-blank0">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
     <Style id="sh_grn-blank">
       <IconStyle>
         <scale>1.3</scale>
@@ -293,7 +355,7 @@
         </ItemIcon>
       </ListStyle>
     </Style>
-    <Style id="sh_grn-blank0">
+    <Style id="sh_grn-blank00">
       <IconStyle>
         <scale>1.3</scale>
         <Icon>
@@ -509,6 +571,8 @@
         </Icon>
         <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
       </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
       <ListStyle>
         <ItemIcon>
           <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
@@ -516,6 +580,20 @@
       </ListStyle>
     </Style>
     <Style id="sn_grn-blank0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+    <Style id="sn_grn-blank01">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
@@ -2070,17 +2148,17 @@
         <styleUrl>#inline1</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="m_ylw-pushpin0">
+    <StyleMap id="m_ylw-pushpin">
       <Pair>
         <key>normal</key>
-        <styleUrl>#s_ylw-pushpin4</styleUrl>
+        <styleUrl>#s_ylw-pushpin1</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+        <styleUrl>#s_ylw-pushpin_hl3</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="m_ylw-pushpin">
+    <StyleMap id="m_ylw-pushpin4">
       <Pair>
         <key>normal</key>
         <styleUrl>#s_ylw-pushpin3</styleUrl>
@@ -2090,14 +2168,24 @@
         <styleUrl>#s_ylw-pushpin_hl</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="m_ylw-pushpin03">
+    <StyleMap id="m_ylw-pushpin1">
       <Pair>
         <key>normal</key>
         <styleUrl>#s_ylw-pushpin</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+        <styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="m_ylw-pushpin0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#s_ylw-pushpin4</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#s_ylw-pushpin_hl4</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="m_ylw-pushpin00">
@@ -2130,7 +2218,17 @@
         <styleUrl>#s_ylw-pushpin_hl20</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="m_ylw-pushpin1">
+    <StyleMap id="m_ylw-pushpin03">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#s_ylw-pushpin5</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="m_ylw-pushpin11">
       <Pair>
         <key>normal</key>
         <styleUrl>#s_ylw-pushpin2</styleUrl>
@@ -2143,21 +2241,21 @@
     <StyleMap id="m_ylw-pushpin10">
       <Pair>
         <key>normal</key>
-        <styleUrl>#s_ylw-pushpin10</styleUrl>
+        <styleUrl>#s_ylw-pushpin101</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+        <styleUrl>#s_ylw-pushpin_hl01</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="m_ylw-pushpin2">
       <Pair>
         <key>normal</key>
-        <styleUrl>#s_ylw-pushpin1</styleUrl>
+        <styleUrl>#s_ylw-pushpin10</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+        <styleUrl>#s_ylw-pushpin_hl31</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="m_ylw-pushpin20">
@@ -2180,6 +2278,16 @@
         <styleUrl>#s_ylw-pushpin_hl11</styleUrl>
       </Pair>
     </StyleMap>
+    <StyleMap id="msn_grn-blank1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_grn-blank</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_grn-blank0</styleUrl>
+      </Pair>
+    </StyleMap>
     <StyleMap id="msn_grn-blank">
       <Pair>
         <key>normal</key>
@@ -2193,27 +2301,27 @@
     <StyleMap id="msn_grn-blank0">
       <Pair>
         <key>normal</key>
-        <styleUrl>#sn_grn-blank</styleUrl>
+        <styleUrl>#sn_grn-blank0</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
         <styleUrl>#sh_grn-blank</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="msn_grn-blank1">
+    <StyleMap id="msn_grn-blank10">
       <Pair>
         <key>normal</key>
         <styleUrl>#sn_grn-blank00</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#sh_grn-blank0</styleUrl>
+        <styleUrl>#sh_grn-blank00</styleUrl>
       </Pair>
     </StyleMap>
     <StyleMap id="msn_grn-blank2">
       <Pair>
         <key>normal</key>
-        <styleUrl>#sn_grn-blank0</styleUrl>
+        <styleUrl>#sn_grn-blank01</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
@@ -2652,6 +2760,7 @@
     </Style>
     <Folder>
       <name>RIOT</name>
+      <open>1</open>
       <Folder id="04D75FB5E13FE91AF6F6">
         <name>transits</name>
         <visibility>0</visibility>
@@ -2983,10 +3092,10 @@
       </Folder>
       <Folder id="0E394F4AF440CB82F0B7">
         <name>navy</name>
-        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark>
           <name>Exclusion zone 8/25 8/26</name>
+          <visibility>0</visibility>
           <styleUrl>#redOutlineNoFill</styleUrl>
           <Polygon>
             <outerBoundaryIs>
@@ -3000,6 +3109,7 @@
         </Placemark>
         <Placemark>
           <name>Exclusion zone 8/25 8/26</name>
+          <visibility>0</visibility>
           <styleUrl>#redOutlineNoFill0</styleUrl>
           <Polygon>
             <outerBoundaryIs>
@@ -3128,12 +3238,24 @@
             </outerBoundaryIs>
           </Polygon>
         </Placemark>
+        <Placemark>
+          <name>Untitled Path</name>
+          <styleUrl>#m_ylw-pushpin1</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+							-119.7698085570276,33.93709426826945,0 -119.7252206212031,33.8679408333907,0 -119.6823913754078,33.95026015954839,0 -119.6098360661721,33.88552423679423,0 -119.6004972961461,33.9715760880387,0 
+						</coordinates>
+          </LineString>
+        </Placemark>
       </Folder>
       <Folder id="097A915C7D3FE92BD124">
         <name>marine-sanctuary</name>
+        <visibility>0</visibility>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark id="5CC6DBBCFA000004">
           <name>Santa Barbara Section</name>
+          <visibility>0</visibility>
           <snippet>CINMS Santa Barbara Section 2 NAD83</snippet>
           <description>SANCTUARY: CINMS&lt;BR&gt;AREA_NAME: Santa Barbara Section&lt;BR&gt;POLY_ID: 2&lt;BR&gt;DATUM: NAD83&lt;BR&gt;</description>
           <styleUrl>#__managed_style_301E99D94540E52C7C8E</styleUrl>
@@ -3156,6 +3278,7 @@
         </Placemark>
         <Placemark id="5CC6DBBCFA000005">
           <name>Northern Section</name>
+          <visibility>0</visibility>
           <snippet>CINMS Northern Section 1 NAD83</snippet>
           <description>SANCTUARY: CINMS&lt;BR&gt;AREA_NAME: Northern Section&lt;BR&gt;POLY_ID: 1&lt;BR&gt;DATUM: NAD83&lt;BR&gt;</description>
           <styleUrl>#__managed_style_301E99D94540E52C7C8E</styleUrl>
@@ -11195,6 +11318,7 @@
       </Folder>
       <Folder id="075CBB877F4059ACAB01">
         <name>ship-transects</name>
+        <open>1</open>
         <styleUrl>#__managed_style_23F426BFAC40E52C7C8E</styleUrl>
         <Placemark>
           <name>B1S</name>
@@ -11211,7 +11335,7 @@
             <roll>1.669148578049345</roll>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </Camera>
-          <styleUrl>#msn_grn-blank1</styleUrl>
+          <styleUrl>#msn_grn-blank10</styleUrl>
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-119.8487338034171,33.48600132389755,0</coordinates>
@@ -11339,7 +11463,7 @@
           <Placemark>
             <name>Untitled Path</name>
             <visibility>0</visibility>
-            <styleUrl>#m_ylw-pushpin1</styleUrl>
+            <styleUrl>#m_ylw-pushpin11</styleUrl>
             <LineString>
               <tessellate>1</tessellate>
               <coordinates>
@@ -11350,7 +11474,7 @@
           <Placemark>
             <name>Untitled Path</name>
             <visibility>0</visibility>
-            <styleUrl>#m_ylw-pushpin1</styleUrl>
+            <styleUrl>#m_ylw-pushpin11</styleUrl>
             <LineString>
               <tessellate>1</tessellate>
               <coordinates>
@@ -11780,7 +11904,7 @@
               <range>24338.80549499773</range>
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
-            <styleUrl>#m_ylw-pushpin</styleUrl>
+            <styleUrl>#m_ylw-pushpin4</styleUrl>
             <Point>
               <gx:drawOrder>1</gx:drawOrder>
               <coordinates>-120.108,33.629,0</coordinates>
@@ -11801,7 +11925,7 @@
               <range>24186.34257082997</range>
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
-            <styleUrl>#m_ylw-pushpin</styleUrl>
+            <styleUrl>#m_ylw-pushpin4</styleUrl>
             <Point>
               <gx:drawOrder>1</gx:drawOrder>
               <coordinates>-120.1327,33.6629,0</coordinates>
@@ -11822,7 +11946,7 @@
               <range>28408.46445879401</range>
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
-            <styleUrl>#m_ylw-pushpin</styleUrl>
+            <styleUrl>#m_ylw-pushpin4</styleUrl>
             <Point>
               <gx:drawOrder>1</gx:drawOrder>
               <coordinates>-120.1777982846786,33.6761420859648,0</coordinates>
@@ -11843,7 +11967,7 @@
               <range>13891.27615300859</range>
               <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
             </LookAt>
-            <styleUrl>#m_ylw-pushpin</styleUrl>
+            <styleUrl>#m_ylw-pushpin4</styleUrl>
             <Point>
               <gx:drawOrder>1</gx:drawOrder>
               <coordinates>-120.1364143136318,33.63302325983449,0</coordinates>
@@ -11947,6 +12071,111 @@
             </Point>
           </Placemark>
         </Folder>
+        <Placemark>
+          <name>U3</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-22T04:49:20Z</begin>
+              <end>2026-08-23T18:18:35Z</end>
+            </gx:TimeSpan>
+            <longitude>-119.8288932741034</longitude>
+            <latitude>33.90373383264639</latitude>
+            <altitude>0</altitude>
+            <heading>0.4783006132957655</heading>
+            <tilt>0</tilt>
+            <range>33309.67500422848</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_grn-blank1</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-119.8099665198276,33.93028782734966,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>U2</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-22T04:49:20Z</begin>
+              <end>2026-08-23T18:18:35Z</end>
+            </gx:TimeSpan>
+            <longitude>-119.8288932741034</longitude>
+            <latitude>33.90373383264639</latitude>
+            <altitude>0</altitude>
+            <heading>0.4783006132957655</heading>
+            <tilt>0</tilt>
+            <range>33309.67500422848</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_grn-blank1</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-119.8048776779003,33.85934042489893,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>U1</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-22T04:49:20Z</begin>
+              <end>2026-08-23T18:18:35Z</end>
+            </gx:TimeSpan>
+            <longitude>-119.8288932741034</longitude>
+            <latitude>33.90373383264639</latitude>
+            <altitude>0</altitude>
+            <heading>0.4783006132957655</heading>
+            <tilt>0</tilt>
+            <range>33309.67500422848</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_grn-blank1</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-119.9157625152617,33.86046572364461,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>U4</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-22T04:49:20Z</begin>
+              <end>2026-08-23T18:18:35Z</end>
+            </gx:TimeSpan>
+            <longitude>-119.8288932741034</longitude>
+            <latitude>33.90373383264639</latitude>
+            <altitude>0</altitude>
+            <heading>0.4783006132957655</heading>
+            <tilt>0</tilt>
+            <range>33309.67500422848</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_grn-blank1</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-119.6609751838652,33.8765103460362,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>U5</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-22T04:49:20Z</begin>
+              <end>2026-08-23T18:18:35Z</end>
+            </gx:TimeSpan>
+            <longitude>-119.8288932741034</longitude>
+            <latitude>33.90373383264639</latitude>
+            <altitude>0</altitude>
+            <heading>0.4783006132957655</heading>
+            <tilt>0</tilt>
+            <range>33309.67500422848</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#msn_grn-blank1</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-119.700360610928,33.93883514475749,0</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
       <Folder>
         <name>measured-depths</name>
@@ -12940,6 +13169,27 @@
           <Point>
             <gx:drawOrder>1</gx:drawOrder>
             <coordinates>-120.145,33.65,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>mlf101</name>
+          <LookAt>
+            <gx:TimeSpan>
+              <begin>2026-08-22T04:49:20Z</begin>
+              <end>2026-08-23T18:18:35Z</end>
+            </gx:TimeSpan>
+            <longitude>-120.6032577637658</longitude>
+            <latitude>33.60028917589624</latitude>
+            <altitude>0</altitude>
+            <heading>0.04982194503097799</heading>
+            <tilt>0</tilt>
+            <range>52317.57524074797</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#m_ylw-pushpin</styleUrl>
+          <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+            <coordinates>-120.275475,33.578445,0</coordinates>
           </Point>
         </Placemark>
       </Folder>
