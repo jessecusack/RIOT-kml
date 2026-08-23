@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="5984">
-        <NetworkLink id="5985">
+    <Document id="5818">
+        <NetworkLink id="5819">
             <name>Autopilot live tracks</name>
-            <Link id="5986">
+            <Link id="5820">
                 <href>https://raw.githubusercontent.com/jessecusack/RIOT-kml/main/tracks.kmz</href>
                 <refreshMode>onInterval</refreshMode>
                 <refreshInterval>600</refreshInterval>
